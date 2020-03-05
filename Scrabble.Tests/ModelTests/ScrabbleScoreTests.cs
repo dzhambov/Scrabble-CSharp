@@ -1,4 +1,3 @@
-using System;
 using Scrabble.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
