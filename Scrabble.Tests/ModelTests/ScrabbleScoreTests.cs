@@ -1,6 +1,5 @@
-using Scrabble;
-using Scrabble.Tests;
-using System.Collections.Generic;
+using System;
+using Scrabble.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Scrabble.Tests
@@ -12,8 +11,7 @@ namespace Scrabble.Tests
     
       public void GameScore_WordScore_1()
         {
-          int score = Word.GameScore('a');
-          Assert.AreEqual(1, score);
+          Assert.AreEqual(2, Word.GameScore("a"));
         }
       
     }
