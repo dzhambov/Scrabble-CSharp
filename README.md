@@ -27,41 +27,25 @@
 
 | Behavior | Input | Output |
 |---|:---:|:---:|
-|User inputs the ingredients they have and clicks submit to recieve recipe inspiration|apple, sugar, flour|Apple fritter|
-|User inputs recipe name to recieve recipe instructions|apple fritter|Combine flour, sugar, salt, baking powder, cinnamon. Stir in milk and egg until just combined. Fold in apple...|
-|User clicks on fridge graphic to recieve a food related fact|graphic click|Cherries are in the rose family|
+|Scrabble application takes in a word from the user|apple|N/A|
+|The application loops through the word and letter by letter |apple|N/A|
+|For each letter in the word the application assignes the appropiate score|apple|9|
+|The aplication returns the number score to the user following the table above| fish | 10 | 
 
 ## Setup/Installation Requirements
+
+
 
 _In Terminal:_
 
 * Navigate to where you want this application to be saved, i.e.:
 ```cd desktop```
 * Clone the file from GitHub with HTTPS
-```git clone https://github.com/benjamin-thompdx/kitchen-quest.git```
-* Open file in your preferred text editor
-* On Mac: ```open -a {your text editor} kitchen-quest```
-* On Windows: ```kitchen-quest```
-* run:  ```npm install```
-
-_Download Manually:_
-
-* Navigate to https://github.com/benjamin-thompdx/kitchen-quest.
-* Click the green "Clone or Download" button.
-* Click "Download ZIP".
-* Click downloaded file to unzip.
-* Open folder called "kitchen-quest".
-* Right-click "index.html" and select your preferred browser or text editor.
-
-_Note For Editors:_ 
-* Once cloned/downloaded, to run and make changes, in the terminal simply run **$ npm install** to download necessary dependencies
-* Run **$ npm run build** to create your dist folder with a bundle.js file
-* Obtain API key from https://spoonacular.com/food-api
-* Create .env file in the root directory of kitchen-quest
-* Add the API keys to .env file (```API_KEY = input your API key here```)
-* **IMPORTANT** Add .env file to .gitignore file 
-* The API key will now be referenced within the kitchen-service.js file using the following syntax: ```${process.env.API_KEY}```
-* Lastly, run **$ npm run start** to run the application
+```git clone https://github.com/dzhambov/Scrabble-CSharp```
+* Go to Scrabble.Tests directory
+* run:  ```dotnet restore```
+* Run ```dotnet run``` to start the game in your terminal
+* Open file with your text editor to make changes
 
 ## Known Bugs
 
@@ -69,23 +53,16 @@ _No known bugs at this time._
 
 ## Support and contact details
 
-_Have a bug or an issue with this application? [Open a new issue](https://github.com/benjamin-thompdx/kitchen-quest/issues) here on GitHub._
+_Have a bug or an issue with this application? [Open a new issue](https://github.com/dzhambov/Scrabble-CSharp/issues) here on GitHub._
 
 ## Technologies Used
 
-* HTML
-* CSS
-* Bootstrap
-* Javascript
-* jQuery
-* Webpack
-* Node.js
-* Spoonacular API
-* Google custom search engine
-* PixelArt
+* C#
+* .NET
+* Git
 
 ### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-Copyright (c) 2020 **_Team Kitchen Quest_**
+Copyright &copy; 2020 **_Hristo Dzhambov_**
